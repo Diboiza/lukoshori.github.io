@@ -1,0 +1,65 @@
+body {
+    background-image: url("Images/LukoBackground.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.welcome-text {
+    color: #FFFFFF;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.welcome-text h1 {
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 5px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.home-button {
+    margin-top: 60px;
+    height: auto !important;
+}
+
+.home-button a {
+    border: 2px solid;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+}
+
+.home-button a:last-child {
+    margin-left: 20px;
+}
+
+.home-button a:hover {
+    background: #f39c12 none repeat scroll 0 0;
+    border-color: #f39c12;
+    color: #ffffff;
+}
+
+.bg-dark {
+    background: transparent!important;
+}
